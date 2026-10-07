@@ -1,32 +1,19 @@
-# Figr — Kiro power
+# Figr for Kiro
 
-Agent Plugins pack for Kiro. MCP + `figr-mcp` skill. Endpoint: **`https://mcp.figr.design/mcp`**
+Figr is an AI product design tool that takes teams from idea to shippable design through exploration, collaboration and iteration — grounded in their existing product and design system.
 
-**Live repo:** https://github.com/Figr-design/figr-kiro-power (public)
+This Power connects Kiro to Figr over MCP. Create and edit canvases, design systems, and org skills from Kiro, or port screens into your repo.
 
 ## Install
 
-In Kiro: **Powers** → **Add Custom Power** → **Import power from GitHub**
+1. Download [figr-kiro-power.zip](https://github.com/Figr-design/figr-kiro-power/releases/latest/download/figr-kiro-power.zip)
+2. Kiro → **Powers** → **Add Power** → **Install from ZIP**
+3. Sign in with your Figr account when Kiro prompts
 
-```text
-https://github.com/Figr-design/figr-kiro-power
-```
-
-Or import this folder locally. Mention Figr / a Figr URL so the power activates.
-
-## Layout
-
-```text
-plugin.json              # Agent Plugins manifest
-mcp.json                 # → https://mcp.figr.design/mcp
-skills/figr-mcp/
-```
+Requires [Kiro](https://kiro.dev).
 
 ## Support
 
 - Docs: https://docs.figr.design/docs/design-intelligence/figr-mcp
-- Email: hello@figr.design
-
-## Privacy Policy
-
-https://docs.figr.design/legal/privacy
+- Email: hi@figr.design
+- Privacy: https://www.figr.design/privacy-policy
